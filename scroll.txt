@@ -1,0 +1,17 @@
+1. smooth scrolling
+        -attach loco scrool css (from : locomotive js github)
+          (link : https://github.com/locomotivemtl/locomotive-scroll/blob/master/dist/locomotive-scroll.css) (in 'new css file')
+
+        -attach locomotive scroll min js (from locomotive js cdn)
+         (link : https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js) (in 'script src') 
+
+        -some code from locomotive github for js
+         (code : 
+          const scroll = new LocomotiveScroll({
+          el: document.querySelector('[data-scroll-container]'),
+          smooth: true
+          }); ) (in 'index script file')
+
+2. gsap
+        -attach gsap cdn
+        (link : https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js) (in 'script src') 
